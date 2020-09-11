@@ -1761,6 +1761,8 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
+		align-content: center;
+		align-self: center;
 		text-align: center;
 	}
 
@@ -2593,7 +2595,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bgd.jfif");
+		background-image: url("images/overlay.png"), url("../../images/qw.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2683,7 +2685,7 @@ input, select, textarea {
 
 	#main {
 		margin-left: 35%;
-		max-width: 54em;
+		max-width: 70em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
@@ -2698,6 +2700,7 @@ input, select, textarea {
 				border-top: 0;
 				margin-top: 0;
 				padding-top: 0;
+				align-content: center;
 			}
 
 /* Poptrox */
@@ -3026,7 +3029,7 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				margin-left: 30%;
+				/* margin-left: 0%; */
 				max-width: none;
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
